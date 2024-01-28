@@ -1,0 +1,643 @@
+{
+  "uuid": "93ff57020c9fea893e72391ccce02d17",
+  "path": "Offline/Drone",
+  "name": "Drone",
+  "content": "",
+  "created_at": "2023-12-31 18:59:44",
+  "updated_at": "2024-01-21 20:44:28",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "32e156f4bf04bd19b0dfab31e06ac331",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a30519526b1c4c18942d9f9ad6bb8717": 1,
+        "b3eb9a64a44a4ee398b9dac9926aa55c": 1,
+        "f29f57ac58b24353a27984c5792bbc76": 40,
+        "c84d9e5aaaca43d8b0eead8dbac18c4a": 1,
+        "85dcfe24a902443e8873d5291e34d46c": 1,
+        "deb6909661124d7cb5af4aa8330fdef3": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 8,
+        "5cbe824183374fac8e4c1ae848199ce3": 1,
+        "fbd706f806044c049ab40a9fbbbc6657": 1,
+        "20b37122052a4452998e1fe41d6cf920": 18,
+        "1e45a0c66e6c4fe3a6fbdd3e5a3d14a4": 4,
+        "e0e618bb0880464d8f8bd0aec318e358": 4,
+        "7b9b870529404c6cb2b26eb2c94f3980": 1,
+        "f5b1d9403e49471cab43bc5a1bec336f": 1,
+        "c3d2ea182c3c42abb3a848181566c347": 1,
+        "3d503ab192d64b03af6aa0700d0ab63e": 8,
+        "a4eacdcb63554cb08b3b56477817ab57": 1,
+        "64edc41102e9447fa1355273baed2181": 1,
+        "a81417ef1e0c407ba1f1cb4a2c9aa8fc": 1,
+        "bdf75f7f9e3f410c903cd89a7491a4a1": 4,
+        "3b8244183a4241b3be4ce70d769c5657": 1,
+        "fbecafaf4b8a4ff2bb7668d735641d5b": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "ANT",
+          1,
+          "ANT",
+          "ANT1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "cjh9760",
+            "spiceSymbolName": "ANT",
+            "puuid": "65096381b7dc4f0ca50dc5ad6a885056",
+            "uuid": "a81417ef1e0c407ba1f1cb4a2c9aa8fc"
+          }
+        ],
+        [
+          "c104_1005",
+          33,
+          "C0402",
+          "C1,C2,C3,C4,C5,C6,C7,C9,C11,C13,C15,C16,C17,C18,C20,C21,C23,C25,C27,C28,C29,C30,C31,C32,C36,C37,C38,C39,C40,C41,C42,C43,C48",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "c103_1005",
+          1,
+          "C0402",
+          "C8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "c225_1608",
+          1,
+          "C0603",
+          "C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "c106_1608",
+          1,
+          "C0603",
+          "C12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "c226_1608",
+          1,
+          "C0603",
+          "C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "c105_1608",
+          5,
+          "C0603",
+          "C19,C22,C24,C26,C35",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "8pF_1005",
+          3,
+          "C0402",
+          "C33,C34,C46",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "104F_1005",
+          1,
+          "C0402",
+          "C44",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "101F_1005",
+          1,
+          "C0402",
+          "C45",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "1.2pF_1005",
+          1,
+          "C0402",
+          "C47",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "KDS160-RTK/P",
+          4,
+          "SOD-323_L1.7-W1.3-LS2.5-RD",
+          "D1,D2,D3,D4",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "KEC",
+            "Manufacturer Part": "KDS160-RTK/P",
+            "Supplier Part": "C69757",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "KDS160-RTK/P",
+            "puuid": "e58550af674c49b69ac8fdd593652ed4",
+            "uuid": "e0e618bb0880464d8f8bd0aec318e358"
+          }
+        ],
+        [
+          "-",
+          1,
+          "FILTER-SMD_6P-L1.6-W1.0-P0.50-BL",
+          "FL1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2651048",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "MLPF-WB55-01E3",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MLPF-WB55-01E3",
+            "puuid": "872015ac0e794f73bdf4e591ead883df",
+            "uuid": "64edc41102e9447fa1355273baed2181"
+          }
+        ],
+        [
+          "PAD_2",
+          4,
+          "PAD_2",
+          "J1,J2,J3,J4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "Guest",
+            "spiceSymbolName": "PAD_2",
+            "puuid": "baec02ca304d49d0a5338cd6d462a3ef",
+            "uuid": "bdf75f7f9e3f410c903cd89a7491a4a1"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x4",
+          1,
+          "HDR-M-2.54_1X4",
+          "J5",
+          {
+            "Supplier Part": "C124378",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x4",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ],
+        [
+          "3.6nH_1608",
+          1,
+          "L0603",
+          "L1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "L0603_US",
+            "Manufacturer Part": "",
+            "puuid": "1f261cf72cb1479ca32177c31156ede3",
+            "uuid": "a4eacdcb63554cb08b3b56477817ab57"
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED0603_RED",
+          "LED1",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "PAD_7",
+          8,
+          "PAD_7",
+          "PAD1,PAD2,PAD3,PAD4,PAD5,PAD6,PAD7,PAD8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "Guest",
+            "spiceSymbolName": "PAD_7",
+            "puuid": "506597ce575d4d0aa42a26989f3e718a",
+            "uuid": "3d503ab192d64b03af6aa0700d0ab63e"
+          }
+        ],
+        [
+          "PDN2316S",
+          4,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q1,Q2,Q3,Q4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C964596",
+            "Manufacturer": "Potens(博盛半导体)",
+            "Manufacturer Part": "PDN2318S",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PDN2318S",
+            "puuid": "bade90667a6e4731855e9a223387b8a6",
+            "uuid": "1e45a0c66e6c4fe3a6fbdd3e5a3d14a4"
+          }
+        ],
+        [
+          "MMBT2222ATT1G",
+          1,
+          "SC-75-3_L1.6-W0.8-P1.00-LS1.6-BR",
+          "Q5",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "MMBT2222ATT1G",
+            "Supplier Part": "C94417",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MMBT2222ATT1G",
+            "puuid": "eb285cd844ca4067819a8dc0ba3b663a",
+            "uuid": "3b8244183a4241b3be4ce70d769c5657"
+          }
+        ],
+        [
+          "r221_1005",
+          8,
+          "R0402",
+          "R1,R2,R4,R5,R6,R7,R17,R18",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "20b37122052a4452998e1fe41d6cf920"
+          }
+        ],
+        [
+          "r0R0_1005",
+          1,
+          "R0402",
+          "R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "20b37122052a4452998e1fe41d6cf920"
+          }
+        ],
+        [
+          "R221_1005",
+          4,
+          "R0402",
+          "R8,R9,R10,R11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "20b37122052a4452998e1fe41d6cf920"
+          }
+        ],
+        [
+          "r3R0_1005",
+          1,
+          "R0402",
+          "R12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "20b37122052a4452998e1fe41d6cf920"
+          }
+        ],
+        [
+          "r102_1005",
+          4,
+          "R0402",
+          "R13,R14,R15,R16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "20b37122052a4452998e1fe41d6cf920"
+          }
+        ],
+        [
+          "PTS636SK25SMTRLFS",
+          1,
+          "KEY-SMD_L6.1-W3.7-LS8.0",
+          "SW1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2689642",
+            "Manufacturer": "C&K",
+            "Manufacturer Part": "PTS636SK25SMTRLFS",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PTS636SK25SMTRLFS",
+            "puuid": "6f19358199b347a2bdde179dd126cb50",
+            "uuid": "c3d2ea182c3c42abb3a848181566c347"
+          }
+        ],
+        [
+          "STM32WB10CCU5",
+          1,
+          "UFQFPN-48_L7.0-W7.0-P0.50-BL-EP",
+          "U1",
+          {
+            "Manufacturer": "ST",
+            "Manufacturer Part": "STM32WB10CCU UFQFPN48",
+            "Supplier": "",
+            "Supplier Part": "MOUSER",
+            "link": "https://www.st.com/en/microcontrollers-microprocessors/stm32wb10cc.html",
+            "Contributor": "swenzzon",
+            "spiceSymbolName": "STM32WB10CCU5",
+            "puuid": "d8f1e8de5160402fae618de6ccdfda66",
+            "uuid": "a30519526b1c4c18942d9f9ad6bb8717"
+          }
+        ],
+        [
+          "ICM-42670-P",
+          1,
+          "LGA-14_L3.0-W2.5-P0.50-TL_QMI8658A",
+          "U2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3288646",
+            "Manufacturer": "TDK InvenSense(应美盛)",
+            "Manufacturer Part": "ICM-42670-P",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "ICM-42670-P",
+            "puuid": "4d83e163d8f745348434edf121b3a719",
+            "uuid": "85dcfe24a902443e8873d5291e34d46c"
+          }
+        ],
+        [
+          "MIC5528-2.8YMX-TR",
+          1,
+          "DFN-6_L1.2-W1.2-P0.40-TL-EP",
+          "U3",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C622489",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Manufacturer Part": "MIC5528-2.8YMX-TR",
+            "spiceSymbolName": "MIC5528-2.8YMX-TR",
+            "puuid": "3ed408d6c09e47d89d5c3ed6fbc91747",
+            "uuid": "b3eb9a64a44a4ee398b9dac9926aa55c"
+          }
+        ],
+        [
+          "VL53L4CXV0DH/1",
+          1,
+          "OPTO-SMD_VL53L1CXV0FY-1",
+          "U4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3178292",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "VL53L4CXV0DH/1",
+            "spiceSymbolName": "VL53L4CXV0DH/1",
+            "puuid": "b1d797a205934aae8913ac409d8049d1",
+            "uuid": "c84d9e5aaaca43d8b0eead8dbac18c4a"
+          }
+        ],
+        [
+          "VL53L5CXV0GC/1",
+          4,
+          "LGA-16_L6.4-W3.0_VL53L5CXV0GC-1",
+          "U5,U6,U7,U8",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3178303",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "VL53L5CXV0GC/1",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "VL53L5CXV0GC/1",
+            "puuid": "024f6fec0756451d8c17908445050ae5",
+            "uuid": "fbecafaf4b8a4ff2bb7668d735641d5b"
+          }
+        ],
+        [
+          "PMW3901MB-TXQT",
+          1,
+          "COB-28_L6.0-W6.0-P0.65-TL-EP",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000235",
+            "Manufacturer": "null",
+            "Manufacturer Part": "PMW3901MB-TXQT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PMW3901MB-TXQT",
+            "puuid": "7e38bbf1c09543868bb10784bc9bf7de",
+            "uuid": "deb6909661124d7cb5af4aa8330fdef3"
+          }
+        ],
+        [
+          "MIC5504-1.8YM5-TR",
+          1,
+          "TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+          "U10",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C626116",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Manufacturer Part": "MIC5504-1.8YM5-TR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MIC5504-1.8YM5-TR",
+            "puuid": "302f53df103a4f5ebc8b59e4d437947a",
+            "uuid": "fbd706f806044c049ab40a9fbbbc6657"
+          }
+        ],
+        [
+          "XRCGB32M000F3M01R0",
+          1,
+          "CRYSTAL-SMD_4P-L2.0-W1.6-BL",
+          "X1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C648922",
+            "Manufacturer": "HD(浩都频率)",
+            "Manufacturer Part": "7D016000O01",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "7D016000O01",
+            "puuid": "3fe9ff28632a44d2823cc1b07f6026af",
+            "uuid": "7b9b870529404c6cb2b26eb2c94f3980"
+          }
+        ]
+      ],
+      "updateTime": 1705834866,
+      "createTime": 1704016784,
+      "histories": [],
+      "created_at": "2023-12-31 18:59:44",
+      "updated_at": "2024-01-21 20:01:06"
+    },
+    {
+      "uuid": "dce5f134934b86f776217d0621b1eece",
+      "puuid": "93ff57020c9fea893e72391ccce02d17",
+      "title": "PCB_Drone",
+      "filename": "PCB_Drone.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0821ed6ea50c44f4909e4be7610e4198": 40,
+        "302f53df103a4f5ebc8b59e4d437947a": 1,
+        "eb285cd844ca4067819a8dc0ba3b663a": 1,
+        "fafd024f554e426eb74cf4a204aa88b0": 18,
+        "f8151fdc728a41ebbc304e11d39e5437": 8,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 1,
+        "d8f1e8de5160402fae618de6ccdfda66": 1,
+        "4d83e163d8f745348434edf121b3a719": 1,
+        "872015ac0e794f73bdf4e591ead883df": 1,
+        "282f7786cb6144d097ae00194c3e3fb3": 1,
+        "1f261cf72cb1479ca32177c31156ede3": 1,
+        "506597ce575d4d0aa42a26989f3e718a": 8,
+        "bade90667a6e4731855e9a223387b8a6": 4,
+        "6f19358199b347a2bdde179dd126cb50": 1,
+        "3fe9ff28632a44d2823cc1b07f6026af": 1,
+        "65096381b7dc4f0ca50dc5ad6a885056": 1,
+        "baec02ca304d49d0a5338cd6d462a3ef": 4,
+        "024f6fec0756451d8c17908445050ae5": 4,
+        "3ed408d6c09e47d89d5c3ed6fbc91747": 1,
+        "e58550af674c49b69ac8fdd593652ed4": 4,
+        "b1d797a205934aae8913ac409d8049d1": 1,
+        "7e38bbf1c09543868bb10784bc9bf7de": 1
+      },
+      "BOM": [],
+      "updateTime": 1705837468,
+      "createTime": 1704090396,
+      "histories": [],
+      "created_at": "2024-01-01 15:26:36",
+      "updated_at": "2024-01-21 20:44:28"
+    }
+  ],
+  "sort": [],
+  "title": "Drone",
+  "foldername": "Drone",
+  "schfilename": "Drone.json",
+  "schfilemtime": 1705834866749
+}

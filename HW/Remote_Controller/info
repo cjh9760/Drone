@@ -1,0 +1,336 @@
+{
+  "uuid": "4e802f9df213be977ded413239096ea3",
+  "path": "Offline/Remote_Controller",
+  "name": "Remote_Controller",
+  "content": "",
+  "created_at": "2024-01-01 13:51:14",
+  "updated_at": "2024-01-21 19:54:52",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e61d680c08cb1042801d6b77afee8b03",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "20b37122052a4452998e1fe41d6cf920": 17,
+        "a30519526b1c4c18942d9f9ad6bb8717": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 1,
+        "f29f57ac58b24353a27984c5792bbc76": 15,
+        "85dcfe24a902443e8873d5291e34d46c": 1,
+        "b3eb9a64a44a4ee398b9dac9926aa55c": 1,
+        "d90b7b1645f04b53a0c1f2e41fdc5f53": 1,
+        "7b9b870529404c6cb2b26eb2c94f3980": 1,
+        "e527636c25ab4a8787cdcf7e50bc6a5a": 8,
+        "5cbe824183374fac8e4c1ae848199ce3": 4,
+        "3b8244183a4241b3be4ce70d769c5657": 4,
+        "f5b1d9403e49471cab43bc5a1bec336f": 1,
+        "c3d2ea182c3c42abb3a848181566c347": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "c104_1005",
+          11,
+          "C0402",
+          "C1,C2,C4,C5,C6,C7,C9,C13,C30,C31,C32",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "c105_1005",
+          1,
+          "C0402",
+          "C3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "c103_1005",
+          1,
+          "C0402",
+          "C8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "c225_1608",
+          1,
+          "C0603",
+          "C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "8pF_1005",
+          2,
+          "C0402",
+          "C11,C12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x4",
+          1,
+          "HDR-M-2.54_1X4",
+          "J5",
+          {
+            "Supplier Part": "C124378",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x4",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ],
+        [
+          "LED-0603_R",
+          4,
+          "LED0603_RED",
+          "LED1,LED2,LED3,LED4",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "MMBT2222ATT1G",
+          4,
+          "SC-75-3_L1.6-W0.8-P1.00-LS1.6-BR",
+          "Q1,Q2,Q3,Q4",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "MMBT2222ATT1G",
+            "Supplier Part": "C94417",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MMBT2222ATT1G",
+            "puuid": "eb285cd844ca4067819a8dc0ba3b663a",
+            "uuid": "3b8244183a4241b3be4ce70d769c5657"
+          }
+        ],
+        [
+          "r000_1005",
+          1,
+          "R0402",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "20b37122052a4452998e1fe41d6cf920"
+          }
+        ],
+        [
+          "r103_1005",
+          8,
+          "R0402",
+          "R2,R3,R4,R5,R6,R7,R8,R9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "20b37122052a4452998e1fe41d6cf920"
+          }
+        ],
+        [
+          "r221_1005",
+          8,
+          "R0402",
+          "R10,R11,R12,R13,R14,R15,R16,R17",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "20b37122052a4452998e1fe41d6cf920"
+          }
+        ],
+        [
+          "ST-1102W-6",
+          8,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.2",
+          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C589249",
+            "Manufacturer": "RISHENG(日昇)",
+            "Manufacturer Part": "ST-1102W-6",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ST-1102W-6",
+            "puuid": "948a13c49f2e4860b308395de27c564f",
+            "uuid": "e527636c25ab4a8787cdcf7e50bc6a5a"
+          }
+        ],
+        [
+          "PTS636SK25SMTRLFS",
+          1,
+          "KEY-SMD_L6.1-W3.7-LS8.0",
+          "SW9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2689642",
+            "Manufacturer": "C&K",
+            "Manufacturer Part": "PTS636SK25SMTRLFS",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PTS636SK25SMTRLFS",
+            "puuid": "6f19358199b347a2bdde179dd126cb50",
+            "uuid": "c3d2ea182c3c42abb3a848181566c347"
+          }
+        ],
+        [
+          "STM32WB10CCU5",
+          1,
+          "UFQFPN-48_L7.0-W7.0-P0.50-BL-EP",
+          "U1",
+          {
+            "Manufacturer": "ST",
+            "Manufacturer Part": "STM32WB10CCU UFQFPN48",
+            "Supplier": "",
+            "Supplier Part": "MOUSER",
+            "link": "https://www.st.com/en/microcontrollers-microprocessors/stm32wb10cc.html",
+            "Contributor": "swenzzon",
+            "spiceSymbolName": "STM32WB10CCU5",
+            "puuid": "d8f1e8de5160402fae618de6ccdfda66",
+            "uuid": "a30519526b1c4c18942d9f9ad6bb8717"
+          }
+        ],
+        [
+          "ICM-42670-P",
+          1,
+          "LGA-14_L3.0-W2.5-P0.50-TL_QMI8658A",
+          "U2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3288646",
+            "Manufacturer": "TDK InvenSense(应美盛)",
+            "Manufacturer Part": "ICM-42670-P",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "ICM-42670-P",
+            "puuid": "4d83e163d8f745348434edf121b3a719",
+            "uuid": "85dcfe24a902443e8873d5291e34d46c"
+          }
+        ],
+        [
+          "MIC5528-2.8YMX-TR",
+          1,
+          "DFN-6_L1.2-W1.2-P0.40-TL-EP",
+          "U3",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C622489",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Manufacturer Part": "MIC5528-2.8YMX-TR",
+            "spiceSymbolName": "MIC5528-2.8YMX-TR",
+            "puuid": "3ed408d6c09e47d89d5c3ed6fbc91747",
+            "uuid": "b3eb9a64a44a4ee398b9dac9926aa55c"
+          }
+        ],
+        [
+          "COM-09032",
+          1,
+          "XDCR_COM-09032",
+          "U4",
+          {
+            "Contributor": "cjh9760",
+            "spiceSymbolName": "COM-09032",
+            "Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "d90b7b1645f04b53a0c1f2e41fdc5f53"
+          }
+        ],
+        [
+          "XRCGB32M000F3M01R0",
+          1,
+          "CRYSTAL-SMD_4P-L2.0-W1.6-BL",
+          "X1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C648922",
+            "Manufacturer": "HD(浩都频率)",
+            "Manufacturer Part": "7D016000O01",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "7D016000O01",
+            "puuid": "3fe9ff28632a44d2823cc1b07f6026af",
+            "uuid": "7b9b870529404c6cb2b26eb2c94f3980"
+          }
+        ]
+      ],
+      "updateTime": 1705834492,
+      "createTime": 1704084675,
+      "histories": [],
+      "created_at": "2024-01-01 13:51:15",
+      "updated_at": "2024-01-21 19:54:52"
+    }
+  ],
+  "sort": [],
+  "title": "Remote_Controller",
+  "foldername": "Remote_Controller",
+  "schfilename": "Remote_Controller.json",
+  "schfilemtime": 1705834492162
+}

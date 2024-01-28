@@ -1,0 +1,147 @@
+{
+  "uuid": "c51c83a2a303197bf9cd95369cdfa5f3",
+  "path": "Offline/Side_Sensor",
+  "name": "Side_Sensor",
+  "content": "",
+  "created_at": "2024-01-21 18:57:29",
+  "updated_at": "2024-01-21 20:01:09",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "4e867a0d3863e254c1f68dfbdf6e9ade",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3d503ab192d64b03af6aa0700d0ab63e": 1,
+        "f29f57ac58b24353a27984c5792bbc76": 3,
+        "24eeb2ceca08480b92b847b6a310acda": 1,
+        "20b37122052a4452998e1fe41d6cf920": 2,
+        "fbecafaf4b8a4ff2bb7668d735641d5b": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "c104_1005",
+          3,
+          "C0402",
+          "C18,C20,C43",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "c105_1608",
+          1,
+          "C0603",
+          "C19",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "PAD_7",
+          1,
+          "PAD_7",
+          "PAD5",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "Guest",
+            "spiceSymbolName": "PAD_7",
+            "puuid": "506597ce575d4d0aa42a26989f3e718a",
+            "uuid": "3d503ab192d64b03af6aa0700d0ab63e"
+          }
+        ],
+        [
+          "r221_1005",
+          2,
+          "R0402",
+          "R4,R5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "20b37122052a4452998e1fe41d6cf920"
+          }
+        ],
+        [
+          "VL53L5CXV0GC/1",
+          1,
+          "LGA-16_L6.4-W3.0_VL53L5CXV0GC-1",
+          "U6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3178303",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "VL53L5CXV0GC/1",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "VL53L5CXV0GC/1",
+            "puuid": "024f6fec0756451d8c17908445050ae5",
+            "uuid": "fbecafaf4b8a4ff2bb7668d735641d5b"
+          }
+        ]
+      ],
+      "updateTime": 1705831222,
+      "createTime": 1705831049,
+      "histories": [],
+      "created_at": "2024-01-21 18:57:29",
+      "updated_at": "2024-01-21 19:00:22"
+    },
+    {
+      "uuid": "190eb3873d0ac2a450dd3f2c8fec0859",
+      "puuid": "c51c83a2a303197bf9cd95369cdfa5f3",
+      "title": "PCB_Side_Sensor",
+      "filename": "PCB_Side_Sensor.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0821ed6ea50c44f4909e4be7610e4198": 3,
+        "f8151fdc728a41ebbc304e11d39e5437": 1,
+        "506597ce575d4d0aa42a26989f3e718a": 1,
+        "fafd024f554e426eb74cf4a204aa88b0": 2,
+        "024f6fec0756451d8c17908445050ae5": 1
+      },
+      "BOM": [],
+      "updateTime": 1705834869,
+      "createTime": 1705831933,
+      "histories": [],
+      "created_at": "2024-01-21 19:12:13",
+      "updated_at": "2024-01-21 20:01:09"
+    }
+  ],
+  "sort": [],
+  "title": "Side_Sensor",
+  "foldername": "Side_Sensor",
+  "schfilename": "Side_Sensor.json",
+  "schfilemtime": 1705831222122
+}
